@@ -1,0 +1,1 @@
+!function(){function e(){var e=document.documentElement,t=e.getBoundingClientRect().width;t>640&&(t=640),rem=t/6.4,e.style.fontSize=rem+"px"}var t;e(),window.addEventListener("resize",function(){clearTimeout(t),t=setTimeout(e,300)},!1)}();
